@@ -9,7 +9,7 @@ on:
   schedule:
   # run this every Wednesday at 3 am UTC
   - cron: 0 3 * * 3
-  workflow-dispatch:
+  workflow_dispatch:
 
 jobs:
   tests:
